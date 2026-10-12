@@ -1,0 +1,23 @@
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+
+# Build output
+**/bin/
+**/obj/
+
+# User-specific IDE files
+.vscode/
+
+# Logs
+*.log
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Local configuration overrides
+appsettings.Development.json
